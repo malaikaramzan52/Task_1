@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./output.css" rel="stylesheet">
+    <title>Sign-up page</title>
+    <script>
+    function handleSignIn() {
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      console.log('Email:', email);
+      console.log('Password:', password);
+    }
+  </script>
+</head>
+<body class="bg-gray-300">
+    <div class="flex flex-col md:flex-row p-20 m-10 justify-center font-sans">
+        <div class="bg-white w-full lg:w-1/2 p-10  md:w-1/2">
+            <!-- logo -->
+            <div class="flex items-center space-x-2">
+                <div class="bg-teal-800 text-white px-2 py-1 rounded">
+                    {...}
+                </div>
+                <span class="font-semibold text-xl text-teal-800 ">SoftQA</span>
+            </div>
+
+            <h1 class="text-2xl mt-20 font-medium text-black">Welcome Back!</h1>
+            <p class="text-gray-700 mt-4">Sign in to access your dashboard and continue optimizing your QA process.</p>
+
+            <!-- Email -->
+            <div class="relative mt-8">
+                <label class=" mb-2 font-medium text-black">Email</label>
+                <i
+                    class="fa-solid fa-envelope absolute left-3 top-1/2 transform -translate-y-1/2 text-teal-900 mt-3"></i>
+                <input  id="email" type="email" placeholder="Enter your email"
+                    class="w-full border border-gray-400 rounded-xl pl-10 pr-3 py-2 focus:outline-none focus:border-teal-800" />
+            </div>
+            <!-- password -->
+
+            <div class="relative mt-4">
+                <label class="mb-2 font-medium text-black">Password</label>
+                <i class="fa-solid fa-lock absolute left-3 top-1/2 transform -translate-y-1/2 text-teal-900 mt-3"></i>
+                <i class="fa-regular fa-eye-slash absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600 mt-3"></i>
+                <input id="password" type="password" placeholder="Enter your password"
+                    class="w-full border border-gray-400 rounded-xl pl-10 pr-3 py-2 focus:outline-none focus:border-teal-800" />
+            </div>
+
+            <div class="text-right">
+                <a href="#" class="text-teal-800 text-sm">Forgot Password?</a>
+            </div>
+            <!-- Sign-in Button -->
+            <button onclick="handleSignIn()"
+             
+            class="bg-teal-800 text-white justify-center w-full rounded-xl p-2 mt-4 hover:bg-teal-900">
+            Sign In</button>
+            <!-- OR -->
+            <div class="flex items-center justify-center gap-2 mt-4">
+                <hr class="w-1/2 border-gray-300"> OR
+                <hr class="w-1/2 border-gray-300">
+            </div>
+            <!-- Google field -->
+            <button
+                class="border border-gray-400 w-full flex items-center justify-center gap-2 p-2 mt-4 rounded-xl font-medium font-black">
+                <img class="h-6 w-6" src="images/google.png" alt="Apple Logo">
+                <span>Continue with Google</span>
+            </button>
+            <!-- Apple-field -->
+            <button
+                class="border border-gray-400 w-full flex items-center justify-center gap-2 p-2 mt-4 rounded-xl font-medium font-black">
+                <img class="h-6 w-12" src="images/Apple-Logo.png" alt="Apple Logo">
+                <span>Continue with Apple</span>
+            </button>
+            <!-- Sign-up -->
+            <p class="text-center text-sm mt-4">Don't have an Account? <a href="#" class="text-teal-900">Sign Up</a></p>
+        </div>
+        <!-- Section-2 -->
+        <div class="bg-teal-900 w-full lg:w-1/2 p-10 text-white">
+            <h1 class="text-4xl pt-20 pl-5">Revolutionize QA with Smarter Automation</h1>
+            <p class="pl-10 mt-6 relative">
+                <i class="fa-solid fa-quote-left absolute top-0 left-5"></i>
+                "SoftQA has completely transformed our testing process.<br>
+                It's reliable, efficient, and ensures our releases are<br>
+                always top-notch."
+            </p>
+
+            <!-- Image -->
+            <div class="flex items-center mt-8 pl-5 gap-4">
+                <img class="w-10 h-10" src="images/male.png">
+                <div>
+                    <div class="">Michael Carter</div>
+                    <div class="text-sm text-gray-300">Software Engineer at DevCore</div>
+                </div>
+            </div>
+            <!-- Teams -->
+            <div class="flex mt-53">
+                <span class="uppercase pl-5 font-medium mr-2">join 1k teams </span>
+                <div class="flex-grow h-px bg-gray-300 mt-3"></div>
+            </div>
+            <div class="flex flex-wrap gap-6 items-center mt-8 pl-5 text-white">
+                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/discord.png">
+                <img class="w-23  hover:scale-130 transition-transform duration-1000" src="images/clipchamp.png">
+                <img class="w-25 hover:scale-130 transition-transform duration-1000" src="images/grammarly.png">
+                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/attentive.png">
+                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/hellosign.png">
+                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/Intercom.png">
+                <img class="w-20 hover:scale-130 transition-transform duration-1000" src="images/square.png">
+                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/dropbox.png">
+
+              </div>
+            </div>
+
+
+
+
+
+
+</body>
+
+</html>

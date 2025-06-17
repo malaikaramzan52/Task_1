@@ -19,8 +19,8 @@
   </script>
 </head>
 <body class="bg-gray-300">
-    <div class="flex flex-col md:flex-row lg:p-20 lg:m-10 justify-center font-sans">
-        <div class="bg-white w-full lg:w-1/2 p-15  md:w-1/2">
+    <div class="flex flex-col md:flex-row lg:p-10 lg:m-10 justify-center font-sans">
+        <div class="bg-white w-full lg:w-1/2 p-10 md:w-1/2">
             <!-- logo -->
             <div class="flex items-center space-x-2">
                 <div class="bg-teal-800 text-white px-2 py-1 rounded">
@@ -29,12 +29,12 @@
                 <span class="font-semibold text-xl text-teal-800 ">SoftQA</span>
             </div>
 
-            <h1 class="text-2xl mt-10 font-medium text-black">Welcome Back!</h1>
-            <p class="text-gray-700 mt-2">Sign in to access your dashboard and continue optimizing your QA process.</p>
+            <h1 class="text-2xl mt-8 font-medium text-black">Welcome Back!</h1>
+            <p class="text-gray-700 text-sm">Sign in to access your dashboard and continue optimizing your QA process.</p>
 
             <!-- Email -->
-            <div class="relative mt-4">
-                <label class=" mb-2 font-medium text-black">Email</label>
+            <div class="relative mt-2">
+                <label class=" mb-2 font-medium text-sm text-black ">Email</label>
                 <i
                     class="fa-solid fa-envelope absolute left-3 top-1/2 transform -translate-y-1/2 text-teal-900 mt-3"></i>
                 <input  id="email" type="email" placeholder="Enter your email"
@@ -42,8 +42,8 @@
             </div>
             <!-- password -->
 
-            <div class="relative mt-2">
-                <label class="mb-2 font-medium text-black">Password</label>
+            <div class="relative">
+                <label class="mb-2 font-medium text-black text-sm">Password</label>
                 <i class="fa-solid fa-lock absolute left-3 top-1/2 transform -translate-y-1/2 text-teal-900 mt-3"></i>
                 <i class="fa-regular fa-eye-slash absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600 mt-3"></i>
                 <input id="password" type="password" placeholder="Enter your password"
@@ -56,22 +56,22 @@
             <!-- Sign-in Button -->
             <button onclick="handleSignIn()"
              
-            class="bg-teal-800 text-white justify-center w-full rounded-xl p-2 mt-2 hover:bg-teal-900">
+            class="bg-teal-800 text-white justify-center w-full rounded-xl p-2 hover:bg-teal-900">
             Sign In</button>
             <!-- OR -->
-            <div class="flex items-center justify-center gap-2 mt-2">
-                <hr class="w-1/2 border-gray-300"> OR
+            <div class="flex items-center justify-center gap-2">
+                <hr class="w-1/2 border-gray-300 "> <span class="text-sm">OR</span>
                 <hr class="w-1/2 border-gray-300">
             </div>
             <!-- Google field -->
             <button
-                class="border border-gray-400 w-full flex items-center justify-center gap-2 p-2 mt-4 rounded-xl font-medium font-black">
+                class="border border-gray-400 w-full flex items-center justify-center gap-2 p-1  rounded-xl font-medium text-black">
                 <img class="h-6 w-6" src="images/google.png" alt="Apple Logo">
                 <span>Continue with Google</span>
             </button>
             <!-- Apple-field -->
             <button
-                class="border border-gray-400 w-full flex items-center justify-center gap-2 p-2 mt-4 rounded-xl font-medium font-black">
+                class="border border-gray-400 w-full flex items-center justify-center gap-2 p-1 mt-2 rounded-xl font-medium text-black">
                 <img class="h-6 w-12" src="images/Apple-Logo.png" alt="Apple Logo">
                 <span>Continue with Apple</span>
             </button>
@@ -91,7 +91,7 @@
 </div>
 
             <!-- Image -->
-            <div class="flex items-center mt-8 gap-4">
+            <div class="flex items-center mt-4 gap-2">
                 <img class="w-10 h-10" src="images/male.png">
                 <div>
                     <div class="">Michael Carter</div>
@@ -99,24 +99,22 @@
                 </div>
             </div>
             <!-- Teams -->
-            <div class="flex pt-45">
+            <div class="flex pt-35">
                 <span class="uppercase font-medium mr-2">join 1k teams </span>
                 <div class="flex-grow h-px bg-gray-300 mt-3"></div>
             </div>
-            <div class="flex flex-wrap gap-6 items-center mt-8 text-white">
-                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/discord.png">
-                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/clipchamp.png">
-                <img class="w-25 hover:scale-130 transition-transform duration-1000" src="images/grammarly.png">
-                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/attentive.png">
-                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/hellosign.png">
-                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/Intercom.png">
+            <div class="flex flex-wrap gap-6 items-center mt-2 text-white">
+                <img class="w-20 hover:scale-130 transition-transform duration-1000" src="images/discord.png">
+                <img class="w-20 hover:scale-130 transition-transform duration-1000" src="images/clipchamp.png">
+                <img class="w-20 hover:scale-130 transition-transform duration-1000" src="images/grammarly.png">
+                <img class="w-20 hover:scale-130 transition-transform duration-1000" src="images/attentive.png">
+                <img class="w-20 hover:scale-130 transition-transform duration-1000" src="images/hellosign.png">
+                <img class="w-20 hover:scale-130 transition-transform duration-1000" src="images/Intercom.png">
                 <img class="w-20 hover:scale-130 transition-transform duration-1000" src="images/square.png">
-                <img class="w-23 hover:scale-130 transition-transform duration-1000" src="images/dropbox.png">
+                <img class="w-20 hover:scale-130 transition-transform duration-1000" src="images/dropbox.png">
 
               </div>
             </div>
 </body>
 
 </html>
-
-
